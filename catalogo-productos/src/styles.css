@@ -1,0 +1,39 @@
+.app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-form,
+  .product-filter {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .product-list {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
